@@ -7,7 +7,6 @@
 #include <math.h>
 
 const int WINDOW_WIDTH = 500, WINDOW_HEIGHT = 500, inf = 999999;
-std::vector<int> BACKGROUND_COLOR = { 1, 1, 1 };
 
 class sphere
 {
