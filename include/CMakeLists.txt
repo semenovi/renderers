@@ -1,6 +1,0 @@
-cmake_minimum_required (VERSION 2.6)
-project(raytracing)
-set(SOURCES raytracing.cpp rasterization.cpp)
-set(HEADERS raytracing.h rasterization.h)
-add_library(raytracing ${SOURCES} ${HEADERS})
-target_include_directories(raytracing PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
